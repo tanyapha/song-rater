@@ -1,0 +1,134 @@
+/* GLOBAL */
+
+* {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  font-weight: 50;
+  font-size: 15px;
+  line-height: 2rem;
+}
+
+/* NAVBAR */
+
+.navbar {
+  position: fixed;
+}
+
+.nav-container {
+  height: 50px;
+}
+
+#music-logo {
+  object-fit: contain;
+  height: 30px;
+}
+
+/* TOP BANER */
+
+.banner {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #ba8eaf;
+  z-index: -4;
+  text-align: center;
+}
+
+#record-player-pic {
+  object-fit: contain;
+  max-width: 500px;
+  z-index: 3;
+  margin-top: -9%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-content {
+  padding-top: 120px;
+  height: 190px;
+  display: inline-block;
+}
+
+.title-line {
+  display: flex;
+  text-align: center;
+}
+
+.note-img {
+  object-fit: contain;
+  max-height: 150px;
+}
+
+#title {
+  font-size: 6.5rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-weight: 400;
+  color: #f7f6f5;
+  letter-spacing: 0.2rem;
+}
+
+.buttons {
+  letter-spacing: 0.1rem;
+  border: none;
+  border-radius: 3%;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 1rem;
+  background-color: rgb(255, 255, 255, 0.2);
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+}
+
+.buttons:hover {
+  background-color: #edb5bf;
+  font-size: 50px;
+  transition: all 0.2s;
+}
+
+/* INFORMATION BOXES */
+
+.info-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2rem;
+  text-align: center;
+}
+
+.boxes {
+  height: 450px;
+  width: 350px;
+  box-shadow: 2px 2px 50px lightgrey;
+  border-radius: 10px;
+  border-color: lightgrey;
+  margin: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.text-in-box {
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  text-align: left;
+}
+
+.box-header {
+  text-align: left;
+  font-size: 35px;
+}
+
+/* SOCIAL MEDIA INFORMATION */
+.social-media {
+  width: 100%;
+  height: 400px;
+  background-color: #ba8eaf;
+}
