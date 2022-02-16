@@ -39,5 +39,53 @@ a:hover {
   display: inline-block;
   line-height: 40px;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+#music-logo {
+  object-fit: contain;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* content of page */
+.content {
+  text-align: center;
+}
+
+#title {
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  width: 500px;
+  display: inline-block;
+  text-align: left;
+  box-shadow: 2px 2px 50px lightgrey;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.form-header {
+  letter-spacing: 1px;
+}
+
+.empty-form-box {
+  width: 450px;
+  border: 2px solid lightgrey;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.short {
+  height: 50px;
+}
+
+.long {
+  height: 100px;
 }
