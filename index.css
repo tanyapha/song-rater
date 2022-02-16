@@ -7,7 +7,7 @@
 
 p {
   font-weight: 50;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 2rem;
 }
 
@@ -98,14 +98,14 @@ p {
 .info-boxes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin: 2rem;
   text-align: center;
 }
 
 .boxes {
-  height: 450px;
-  width: 350px;
+  height: 400px;
+  width: 300px;
   box-shadow: 2px 2px 50px lightgrey;
   border-radius: 10px;
   border-color: lightgrey;
@@ -123,7 +123,7 @@ p {
 
 .box-header {
   text-align: left;
-  font-size: 35px;
+  font-size: 20px;
 }
 
 /* SOCIAL MEDIA INFORMATION */

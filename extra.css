@@ -1,0 +1,33 @@
+.circles {
+  border-radius: 50%;
+  z-index: -1;
+  border: none;
+  max-width: 100%;
+  position: absolute;
+}
+
+.circle-large {
+  height: 30rem;
+  width: 30rem;
+  background-color: #edb5bf;
+}
+
+#circle1 {
+  top: 3rem;
+  left: -1rem;
+}
+
+#circle2 {
+  bottom: -9rem;
+  right: 25rem;
+}
+
+#circle3 {
+  top: -10rem;
+  right: -2rem;
+}
+
+.circle-container {
+    min-width: 1300px;
+  }
+  
