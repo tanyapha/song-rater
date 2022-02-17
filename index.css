@@ -24,6 +24,7 @@ a:hover {
 /* NAVBAR */
 .navbar {
   background-color: #ba8eaf;
+  height: 62px;
 }
 .nav-container {
   display: flex;
