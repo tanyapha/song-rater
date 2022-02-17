@@ -12,13 +12,13 @@ p {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
-  font-size: 25px;
-  transition: all 600ms;
+  font-size: 21px;
+  transition: all 0.2s;
 }
 
 /* NAVBAR */
@@ -64,27 +64,17 @@ a:hover {
 .banner {
   height: 500px;
   width: 100%;
-  position: relative;
+  display: flex;
   overflow: hidden;
   background: #ba8eaf;
   z-index: -4;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-
-#record-player-pic {
-  object-fit: contain;
-  max-width: 500px;
-  z-index: 3;
-  margin-top: -100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .banner-content {
-  padding-top: 120px;
-  height: 190px;
-  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .title-line {
@@ -101,8 +91,8 @@ a:hover {
   font-size: 6.5rem;
   margin-left: 2rem;
   margin-top: 1rem;
-  font-weight: 400;
-  color: #f7f6f5;
+  font-weight: 500;
+  color: #333333;
   letter-spacing: 0.2rem;
 }
 
@@ -117,13 +107,26 @@ a:hover {
   background-color: rgb(255, 255, 255, 0.2);
   font-weight: 300;
   font-size: 20px;
-  color: white;
+  color: #333333;
 }
 
 .buttons:hover {
-  background-color: #edb5bf;
-  font-size: 50px;
+  background-color: #cfb0c7;
   transition: all 0.2s;
+}
+
+#record-container {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#record-player-pic {
+  max-width: 100%;
+  /* object-fit: contain; */
+  z-index: 3;
+  margin-top: -100px;
+  display: block;
 }
 
 /* INFORMATION BOXES */
@@ -137,7 +140,7 @@ a:hover {
 }
 
 .boxes {
-  height: 400px;
+  height: 450px;
   width: 300px;
   box-shadow: 2px 2px 50px lightgrey;
   border-radius: 10px;
@@ -145,6 +148,7 @@ a:hover {
   margin: 15px;
   padding: 10px;
   display: inline-block;
+  overflow: scroll;
 }
 
 .text-in-box {
@@ -159,11 +163,38 @@ a:hover {
   font-size: 20px;
 }
 
-/* SOCIAL MEDIA INFORMATION */
-.social-media {
+/* iFrame Things */
+.iframe-video {
   width: 100%;
-  height: 400px;
   background-color: #ba8eaf;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
+}
+
+.top-rec {
+  margin-right: 40px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.title-text {
+  font-size: 50px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.large-des {
+  font-size: 18px;
 }
 
 /* conditions */
