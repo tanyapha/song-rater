@@ -82,11 +82,6 @@ a:hover {
   text-align: center;
 }
 
-.note-img {
-  object-fit: contain;
-  max-height: 150px;
-}
-
 #title {
   font-size: 6.5rem;
   margin-left: 2rem;
