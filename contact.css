@@ -19,6 +19,7 @@ a:hover {
   height: 62px;
 }
 .nav-container {
+  height: 62px;
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(255, 255, 255, 0.1);
@@ -61,9 +62,12 @@ a:hover {
   letter-spacing: 5px;
   margin-top: 30px;
 }
-
+.contact-container {
+  max-width: 400px;
+  margin: auto;
+}
 .contact-form {
-  width: 500px;
+  width: 90%;
   height: 380px;
   display: inline-block;
   box-shadow: 2px 2px 50px lightgrey;
@@ -82,9 +86,9 @@ a:hover {
 }
 
 .empty-form-box {
-  width: 480px;
+  width: 95%;
   border: 2px solid lightgrey;
-  margin: 5px;
+  margin: 7px;
   border-radius: 10px;
 }
 
@@ -117,4 +121,12 @@ a:hover {
   background-color: #cfb0c7;
   font-size: 21px;
   transition: all 0.2s;
+}
+
+@media (max-width: 800px) {
+  .nav-content li {
+    font-size: 15px;
+    margin: 0;
+    padding: 5px;
+  }
 }
